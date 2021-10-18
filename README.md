@@ -41,7 +41,7 @@ ___
 ___
 下面的表格描述了不同超参数下，模型在训练集、验证集和测试集上的精度，其中优化器使用的是SGD，测试集的精度计算使用的是在验证集上表现最好的模型，训练集和验证集的精度是最后一轮的结果，图像是精度和损失的变化，第7个模型每30轮改变一次学习率。
 
-| 序号 | num_epoches | learning rate  | batch size | 图像增广 |                                         精度和损失变化                                          |
+| 序号 | num epoches | learning rate  | batch size | 图像增广 |                                         精度和损失变化                                          |
 | ---- | ----------- | -------------- | ---------- | -------- | ---------------------------------------------------------------------------------------------- |
 | 1    | 50          | 0.1            | 128        | 是       | ![](https://github.com/South1999/CIFAR10-Classification/blob/main/img/%E5%9B%BE3.jpg?raw=true) |
 | 2    | 50          | 0.1            | 128        | 否       | ![](https://github.com/South1999/CIFAR10-Classification/blob/main/img/%E5%9B%BE4.jpg?raw=true) |
