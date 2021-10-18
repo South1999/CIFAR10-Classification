@@ -30,9 +30,11 @@ ___
 ### 网络结构
 ___
 本次作业中使用的网络结构为ResNet-18，主要是由残差模块堆叠而成的。残差模块结构有两种，如下图所示，其中区别就是恒等映射是否使用1×1的卷积层。
+
 ![](https://github.com/South1999/CIFAR10-Classification/blob/main/img/%E5%9B%BE1.jpg?raw=true)
 
 本文中使用的整体网络结构如下图所示，上下两幅图片均来自李沫的《动手学深度学习》（图片有修改），整体网络结构有所修改，第一层网络在书中是7×7的卷积网络，因为图片大小为32×32，7×7的卷积网络较大，不适合本数据集，因此本次作业中使用3×3的卷积网络。
+
 ![](https://github.com/South1999/CIFAR10-Classification/blob/main/img/%E5%9B%BE2.jpg?raw=true)
 
 ### 不同参数下的结果
